@@ -6,6 +6,7 @@ from sklearn.tree import DecisionTreeRegressor
 import lightgbm as lgb
 from sklearn.metrics import make_scorer
 
+
 class FeaturePreprocessor:
     @staticmethod
     def preprocess_features(file_path='features.csv'):
